@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Header from './components/Header'
 import HomePage from './components/Home'
+import Login from './components/login'
 // import ProductFeed from './components/ProductFeed'
 import { GetServerSidePropsContext } from 'next';
 // interface HomeProps {
@@ -16,6 +17,9 @@ export default function Home() {
         <Link href="/">
           <HomePage />
         </Link>
+        {/* <Link href="/">
+          <Login />
+        </Link> */}
 
         {/* <ProductFeed products /> */}
         
